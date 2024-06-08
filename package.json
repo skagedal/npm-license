@@ -27,7 +27,6 @@
     "test": "jest",
     "coverage": "jest --coverage"
   },
-  "preferGlobal": "true",
   "bugs": {
     "url": "http://github.com/AceMetrix/npm-license/issues"
   },
