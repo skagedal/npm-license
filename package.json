@@ -23,7 +23,9 @@
   "bin": {
     "npm-license": "./bin/npm-license"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "preferGlobal": "true",
   "bugs": {
     "url": "http://github.com/AceMetrix/npm-license/issues"
@@ -37,5 +39,8 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/AceMetrix/npm-license.git"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
