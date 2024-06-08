@@ -23,8 +23,7 @@
     "npm-license": "./bin/npm-license"
   },
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage"
+    "test": "vitest"
   },
   "bugs": {
     "url": "http://github.com/AceMetrix/npm-license/issues"
@@ -40,6 +39,6 @@
     "url": "http://github.com/AceMetrix/npm-license.git"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "vitest": "^1.6.0"
   }
 }
