@@ -24,7 +24,8 @@
     "npm-license": "./bin/npm-license"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "preferGlobal": "true",
   "bugs": {
