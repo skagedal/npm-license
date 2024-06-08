@@ -23,7 +23,7 @@
     "npm-license": "./bin/npm-license"
   },
   "scripts": {
-    "test": "vitest"
+    "test": "vitest run"
   },
   "bugs": {
     "url": "http://github.com/AceMetrix/npm-license/issues"
