@@ -10,8 +10,7 @@
     "package-license": "~0.2.1",
     "pkginfo": "^0.4.1",
     "read-installed": "~4.0.3",
-    "treeify": "~1.1.0",
-    "underscore": "~1.13.6"
+    "treeify": "~1.1.0"
   },
   "keywords": [
     "license",
