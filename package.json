@@ -23,7 +23,7 @@
   ],
   "main": "./lib/index.js",
   "bin": {
-    "npm-license": "./bin/npm-license"
+    "npm-license": "bin/npm-license"
   },
   "scripts": {
     "test": "vitest run"
@@ -39,7 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/skagedal/npm-license.git"
+    "url": "git+ssh://git@github.com/skagedal/npm-license.git"
   },
   "devDependencies": {
     "vitest": "^1.6.0"
