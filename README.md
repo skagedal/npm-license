@@ -1,13 +1,11 @@
-NPM License
-===================
-(Original credit to https://github.com/davglass/license-checker)
+# NPM License
 
 Ever needed to see all the license info for a module and it's dependencies?
 
 It's this easy:
 
 ```
-npm install -g npm-license 
+npm install -g npm-license
 
 mkdir foo
 cd foo
@@ -57,23 +55,23 @@ You can also specify `--unknown` to only show licenses that it can't determine o
 
 Also supports `--json /path/to/save.json` to export the data.
 
-Requiring
----------
-
+## Requiring
 
 ```javascript
-var checker = require('npm-license');
+var checker = require("npm-license");
 
-checker.init({
-    start: '/path/to/start/looking'
-}, function(json) {
+checker.init(
+  {
+    start: "/path/to/start/looking",
+  },
+  function (json) {
     //The sorted json data
-});
-
+  }
+);
 ```
 
-Options (Defaults)
-------------------
+## Options (Defaults)
+
 Below are the list of defaults and their descriptions.
 You may pass them either as a module or through the command line (ie. `npm-license --depth=3`)
 
@@ -87,8 +85,8 @@ You may pass them either as a module or through the command line (ie. `npm-licen
 }
 ```
 
-Passing in additional metadata
-------------------------------
+## Passing in additional metadata
+
 With the `meta` option, you may pass in the path (relative to cwd) to a json file containing a structure similar to:
 
 ```javascript
@@ -104,4 +102,10 @@ With the `meta` option, you may pass in the path (relative to cwd) to a json fil
   }
 }
 ```
-Whatever you specify in this file overrides the inspection done by npm-license.  This is particularly useful for cases where the license exists for a dependency, but the library wasn't able to pick it up with its usual methods.
+
+Whatever you specify in this file overrides the inspection done by npm-license. This is particularly useful for cases where the license exists for a dependency, but the library wasn't able to pick it up with its usual methods.
+
+## History
+
+- Original credit to https://github.com/davglass/license-checker
+- Forked from https://github.com/AceMetrix/npm-license version 0.3.4 (see [issue](https://github.com/AceMetrix/npm-license/issues/21))
