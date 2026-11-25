@@ -3,7 +3,7 @@
   "description": "Check license info for a module",
   "author": "Duncan Wong <baduncaduncan@gmail.com>",
   "contributors": [
-    "Simon Kågedal Reimer <skagedal@gmail.com>"
+    "Simon Kågedal <skagedal@gmail.com>"
   ],
   "version": "0.4.0",
   "dependencies": {
